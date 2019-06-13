@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ConsoleUI System">
+      <UniqueIdentifier>{abaaa91f-c432-4e0b-872f-1ce86445eef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ConsoleUI System\Time System">
+      <UniqueIdentifier>{c116761b-49de-4ee4-8fde-dc0232bd3b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ConsoleUI System\Event System">
+      <UniqueIdentifier>{42a65430-8882-4603-83e2-7eba90a92622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ConsoleUI System\Surface System">
+      <UniqueIdentifier>{7d234df5-5587-4d2b-bfa1-3017307d7990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibraryUI">
+      <UniqueIdentifier>{d468e3d8-e568-4c54-b1fa-826e53b27313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibraryUI\MainSurface">
+      <UniqueIdentifier>{0787328f-539a-451c-91b0-74066392dc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Library System">
+      <UniqueIdentifier>{301d2785-83b9-481b-9295-2a38c94892fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibraryUI\UserSurface">
+      <UniqueIdentifier>{7e144559-5f57-4744-89fe-fec70a7a9fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibraryUI\AdminSurface">
+      <UniqueIdentifier>{06c3e971-b767-453e-b1ce-cd820005dc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibraryUI\ChildSurface">
+      <UniqueIdentifier>{91cf910b-8f95-48b4-a759-6ac2652dbccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ConsoleUI System\Custom UI">
+      <UniqueIdentifier>{ba2edbb0-bcac-4abd-8431-6ec846c1ab6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibraryUI\UI">
+      <UniqueIdentifier>{1929d36f-debb-4581-ae2e-e62e78c17d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibraryUI\SplashSurface">
+      <UniqueIdentifier>{c57f45a5-cd4c-4a49-ba8e-c546fc444da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DataStruct">
+      <UniqueIdentifier>{916babb8-521b-4c65-a65c-3f86ba892a1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayList.h">
+      <Filter>头文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="IList.h">
+      <Filter>头文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMain.h">
+      <Filter>头文件\ConsoleUI System</Filter>
+    </ClInclude>
+    <ClInclude Include="EventPump.h">
+      <Filter>头文件\ConsoleUI System\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件\ConsoleUI System\Time System</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>头文件\ConsoleUI System\Time System</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceManager.h">
+      <Filter>头文件\ConsoleUI System\Surface System</Filter>
+    </ClInclude>
+    <ClInclude Include="UISurface.h">
+      <Filter>头文件\ConsoleUI System\Surface System</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRect.h">
+      <Filter>头文件\ConsoleUI System\Surface System</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h">
+      <Filter>头文件\LibraryUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSurface.h">
+      <Filter>头文件\LibraryUI\MainSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSurface_Title.h">
+      <Filter>头文件\LibraryUI\MainSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="IUser.h">
+      <Filter>头文件\Library System</Filter>
+    </ClInclude>
+    <ClInclude Include="Administrator.h">
+      <Filter>头文件\Library System</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeDate.h">
+      <Filter>头文件\Library System</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>头文件\Library System</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>头文件\Library System</Filter>
+    </ClInclude>
+    <ClInclude Include="BookManager.h">
+      <Filter>头文件\Library System</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardLinkedList.h">
+      <Filter>头文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>头文件\Library System</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSurface_Menu.h">
+      <Filter>头文件\LibraryUI\MainSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSurface_Login.h">
+      <Filter>头文件\LibraryUI\MainSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSurface_Register.h">
+      <Filter>头文件\LibraryUI\MainSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSurface.h">
+      <Filter>头文件\LibraryUI\UserSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSurface_Menu.h">
+      <Filter>头文件\LibraryUI\UserSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminSurface.h">
+      <Filter>头文件\LibraryUI\AdminSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminSurface_Menu.h">
+      <Filter>头文件\LibraryUI\AdminSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="BookManageSurface.h">
+      <Filter>头文件\LibraryUI\ChildSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="BorrowMessageSurface.h">
+      <Filter>头文件\LibraryUI\ChildSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUI.h">
+      <Filter>头文件\ConsoleUI System\Custom UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TipsUI.h">
+      <Filter>头文件\ConsoleUI System\Custom UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>头文件\LibraryUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EditWindow.h">
+      <Filter>头文件\ConsoleUI System\Custom UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent.h">
+      <Filter>头文件\ConsoleUI System\Surface System</Filter>
+    </ClInclude>
+    <ClInclude Include="Translate.h">
+      <Filter>头文件\LibraryUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashSurface.h">
+      <Filter>头文件\LibraryUI\SplashSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryMain.h">
+      <Filter>头文件\LibraryUI\UserSurface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ViewRect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UISurface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventPump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Administrator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeDate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BookManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManagerSurface.h">
+      <Filter>头文件\LibraryUI\ChildSurface</Filter>
+    </ClCompile>
+    <ClCompile Include="TipsUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
